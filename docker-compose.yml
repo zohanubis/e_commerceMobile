@@ -1,0 +1,55 @@
+
+services:
+  # Website Service (Frontend)
+  website:
+    build:
+      context: .
+      dockerfile: Website/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://server:4000
+    depends_on:
+      - server
+    networks:
+      - app-network
+
+  # Server Service (Backend)
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://mongo:27017/e_commerceMobile
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - mongo
+      - redis
+    networks:
+      - app-network
+
+  # MongoDB Service
+  mongo:
+    image: mongo:latest
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - app-network
+
+  # Redis Service
+  redis:
+    image: redis:latest
+    networks:
+      - app-network
+
+# Định nghĩa mạng để các service có thể kết nối với nhau
+networks:
+  app-network:
+    driver: bridge
+
+# Volumes để lưu trữ dữ liệu MongoDB
+volumes:
+  mongo_data:
