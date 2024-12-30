@@ -1,17 +1,21 @@
 # Chọn image Node.js chính thức từ Docker Hub
 FROM node:20.15.0
 
-# Cài đặt thư viện và công cụ cần thiết
+# Cài đặt pnpm
+RUN npm install -g pnpm
+
+# Đặt thư mục làm việc trong container
 WORKDIR /app
 
-# Sao chép package.json và package-lock.json để cài đặt dependencies
-COPY server/package.json server/package-lock.json ./
+# Sao chép package.json và pnpm-lock.yaml vào container
+# Cập nhật việc sử dụng pnpm-lock.yaml thay vì package-lock.json
+COPY server/package.json server/pnpm-lock.yaml ./
 
-# Cài đặt các dependencies
-RUN npm install
+# Cài đặt các dependencies bằng pnpm
+RUN pnpm install --frozen-lockfile
 
 # Sao chép toàn bộ mã nguồn server vào container
-COPY server/ .
+COPY server/ ./
 
 # Cấu hình biến môi trường cho ứng dụng
 ENV NODE_ENV=production
@@ -20,4 +24,4 @@ ENV NODE_ENV=production
 EXPOSE 4000
 
 # Lệnh để khởi chạy server
-CMD ["npm", "start"]
+CMD ["pnpm", "start"]

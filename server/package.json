@@ -1,19 +1,43 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Backend server for e-commerce",
+  "description": "Backend service for e-commerce application",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Building backend...'", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
+  "keywords": [
+    "backend",
+    "node",
+    "express",
+    "mongodb",
+    "redis",
+    "e-commerce"
+  ],
+  "author": "Zohanubis",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.11.18",
-    "redis": "^3.1.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "redis": "^4.2.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.0",
+    "express-async-handler": "^1.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.20",
+    "eslint": "^8.30.0"
   },
-  "author": "",
-  "license": "ISC"
+  "engines": {
+    "node": ">=20.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zohanubis/e_commerceMobile.git"
+  }
 }
