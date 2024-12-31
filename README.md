@@ -1,47 +1,50 @@
-# e_commerceMobile
+# E-commerce Mobile Platform <i class="fas fa-mobile-alt"></i> <i class="fas fa-shopping-cart"></i>
 <details>
     <summary>English</summary>
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Technologies](#technologies)
-- [Project Setup](#project-setup)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Commands](#commands)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Introduction](#introduction) <i class="fas fa-info-circle"></i>
+- [Technologies](#technologies) <i class="fas fa-laptop-code"></i>
+- [Project Setup](#project-setup) <i class="fas fa-cogs"></i>
+- [Usage](#usage) <i class="fas fa-play-circle"></i>
+- [Configuration](#configuration) <i class="fas fa-cogs"></i>
+- [Commands](#commands) <i class="fas fa-terminal"></i>
+- [Testing](#testing) <i class="fas fa-vial"></i>
+- [Deployment](#deployment) <i class="fas fa-cloud-upload-alt"></i>
+- [Contributing](#contributing) <i class="fas fa-handshake"></i>
+- [License](#license) <i class="fas fa-gavel"></i>
+- [Contact](#contact) <i class="fas fa-envelope"></i>
+
 
 ## Introduction
 This project is an e-commerce mobile application built with a modern tech stack to ensure scalability, performance, and maintainability. It combines powerful frontend and backend technologies to deliver a seamless user experience and efficient management of data and resources.
 
 ## Technologies
 ### Frontend:
-- **Next.js** (a React.js framework used for server-side rendering, static site generation, and API routes)
-- **Apollo Client** (for managing GraphQL data on the frontend, simplifies API interaction)
-- **TypeScript** (ensures type safety across the frontend and backend, reducing runtime errors)
-- **Jest and React Testing Library** (for unit tests, component tests, and end-to-end testing of frontend components)
+- ![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=flat-square&logo=next.js&logoColor=white&logoWidth=20) (a React.js framework used for server-side rendering, static site generation, and API routes)
+- ![Apollo Client](https://img.shields.io/badge/Apollo%20Client-%23485BB5?style=flat-square&logo=apollo-graphql&logoColor=white&logoWidth=20) (for managing GraphQL data on the frontend, simplifies API interaction)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=flat-square&logo=typescript&logoColor=white&logoWidth=20) (ensures type safety across the frontend and backend, reducing runtime errors)
+- ![Jest](https://img.shields.io/badge/Jest-%23C21325?style=flat-square&logo=jest&logoColor=white&logoWidth=20) ![React Testing Library](https://img.shields.io/badge/React%20Testing%20Library-%23FF3366?style=flat-square&logo=testing-library&logoColor=white&logoWidth=20) (for unit tests, component tests, and end-to-end testing of frontend components)
 
 ### Backend:
-- **Node.js** (runtime environment for running backend APIs, using Express.js, Koa.js, or Next.js API routes)
-- **GraphQL** (facilitates efficient communication between frontend and backend with flexible querying)
-- **MongoDB** (NoSQL database, chosen for flexibility and scalability in storing e-commerce data)
-- **Redis** (used for caching and handling asynchronous tasks, reducing database load and improving performance)
-- **JWT (JSON Web Token)** (for secure user authentication and authorization)
-- **Nodemailer** (for sending emails from the backend, such as order confirmations)
-- **Mongoose** (ORM for MongoDB, provides a schema-based solution to interact with MongoDB)
-- **Bcrypt.js** (for securely hashing passwords)
+- ![Node.js](https://img.shields.io/badge/Node.js-%2343853D?style=flat-square&logo=node.js&logoColor=white&logoWidth=20) (runtime environment for running backend APIs, using Express.js, Koa.js, or Next.js API routes)
+- ![GraphQL](https://img.shields.io/badge/GraphQL-%23E10098?style=flat-square&logo=graphql&logoColor=white&logoWidth=20) (facilitates efficient communication between frontend and backend with flexible querying)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-%2300A747?style=flat-square&logo=mongodb&logoColor=white&logoWidth=20) (NoSQL database, chosen for flexibility and scalability in storing e-commerce data)
+- ![Redis](https://img.shields.io/badge/Redis-%23DC382D?style=flat-square&logo=redis&logoColor=white&logoWidth=20) (used for caching and handling asynchronous tasks, reducing database load and improving performance)
+- ![JWT](https://img.shields.io/badge/JWT-%23272D3B?style=flat-square&logo=json-web-tokens&logoColor=white&logoWidth=20) (for secure user authentication and authorization)
+- ![Nodemailer](https://img.shields.io/badge/Nodemailer-%23FF8C00?style=flat-square&logo=nodemailer&logoColor=white&logoWidth=20) (for sending emails from the backend, such as order confirmations)
+- ![Mongoose](https://img.shields.io/badge/Mongoose-%23000000?style=flat-square&logo=mongoose&logoColor=white&logoWidth=20) (ORM for MongoDB, provides a schema-based solution to interact with MongoDB)
+- ![Bcrypt.js](https://img.shields.io/badge/Bcrypt.js-%236D52A3?style=flat-square&logo=bcrypt&logoColor=white&logoWidth=20) (for securely hashing passwords)
 
 ### DevOps & Deployment:
-- **Docker** (for containerizing the application, including services like Redis and MongoDB, ensuring consistent environments across development and production)
-- **Kubernetes** (used for container orchestration, especially when scaling the application across multiple nodes)
-- **Nginx** (reverse proxy and load balancer to distribute traffic effectively)
+- ![Docker](https://img.shields.io/badge/Docker-%230db7ed?style=flat-square&logo=docker&logoColor=white&logoWidth=20) (for containerizing the application, including services like Redis and MongoDB, ensuring consistent environments across development and production)
+- ![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5?style=flat-square&logo=kubernetes&logoColor=white&logoWidth=20)  (used for container orchestration, especially when scaling the application across multiple nodes)
+- ![Nginx](https://img.shields.io/badge/Nginx-%23009639?style=flat-square&logo=nginx&logoColor=white&logoWidth=20)(reverse proxy and load balancer to distribute traffic effectively)
 
 ### CI/CD:
-- **GitHub Actions** or **GitLab CI** (automates the build, testing, and deployment process, ensuring a seamless delivery pipeline)
+- ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5?style=flat-square&logo=github-actions&logoColor=white&logoWidth=20)  or ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23181717?style=flat-square&logo=gitlab&logoColor=white&logoWidth=20) (automates the build, testing, and deployment process, ensuring a seamless delivery pipeline)
+
+
 
 ## Project Setup
 ### Installation
@@ -182,33 +185,28 @@ Dự án này là một ứng dụng thương mại điện tử di động đư
 
 ## Công nghệ
 ### Frontend:
-- ![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=next.js&logoColor=white) **Next.js** (framework của React.js, được sử dụng cho server-side rendering, static site generation, và API routes)
-
-- ![Apollo Client](https://img.shields.io/badge/Apollo%20Client-%23485BB5?style=for-the-badge&logo=apollo-graphql&logoColor=white) **Apollo Client** (quản lý dữ liệu GraphQL phía frontend, đơn giản hóa việc tương tác với API)
-
-- ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white) **TypeScript** (đảm bảo tính an toàn kiểu dữ liệu trên cả frontend và backend, giảm thiểu lỗi tại thời gian chạy)
-
-- ![Jest](https://img.shields.io/badge/Jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) ![React Testing Library](https://img.shields.io/badge/React%20Testing%20Library-%23FF3366?style=for-the-badge&logo=testing-library&logoColor=white)
- (dùng để kiểm tra đơn vị, kiểm tra các component, và kiểm tra end-to-end các component frontend)
-
+- ![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=flat-square&logo=next.js&logoColor=white&logoWidth=20) (framework của React.js, được sử dụng cho server-side rendering, static site generation, và API routes)
+- ![Apollo Client](https://img.shields.io/badge/Apollo%20Client-%23485BB5?style=flat-square&logo=apollo-graphql&logoColor=white&logoWidth=20) (quản lý dữ liệu GraphQL phía frontend, đơn giản hóa việc tương tác với API)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=flat-square&logo=typescript&logoColor=white&logoWidth=20) (đảm bảo tính an toàn kiểu dữ liệu trên cả frontend và backend, giảm thiểu lỗi tại thời gian chạy)
+- ![Jest](https://img.shields.io/badge/Jest-%23C21325?style=flat-square&logo=jest&logoColor=white&logoWidth=20) ![React Testing Library](https://img.shields.io/badge/React%20Testing%20Library-%23FF3366?style=flat-square&logo=testing-library&logoColor=white&logoWidth=20) (dùng để kiểm tra đơn vị, kiểm tra các component, và kiểm tra end-to-end các component frontend)
 
 ### Backend:
-- **Node.js** (môi trường chạy cho backend APIs, sử dụng Express.js, Koa.js, hoặc Next.js API routes)
-- **GraphQL** (giúp giao tiếp hiệu quả giữa frontend và backend với khả năng truy vấn linh hoạt)
-- **MongoDB** (Cơ sở dữ liệu NoSQL, được chọn vì tính linh hoạt và khả năng mở rộng trong việc lưu trữ dữ liệu thương mại điện tử)
-- **Redis** (dùng để cache và xử lý các tác vụ bất đồng bộ, giảm tải cho cơ sở dữ liệu và cải thiện hiệu suất)
-- **JWT (JSON Web Token)** (đảm bảo xác thực và ủy quyền người dùng an toàn)
-- **Nodemailer** (gửi email từ backend, chẳng hạn như xác nhận đơn hàng)
-- **Mongoose** (ORM cho MongoDB, cung cấp giải pháp schema-based để tương tác với MongoDB)
-- **Bcrypt.js** (mã hóa mật khẩu an toàn)
+- ![Node.js](https://img.shields.io/badge/Node.js-%2343853D?style=flat-square&logo=node.js&logoColor=white&logoWidth=20) (môi trường chạy cho backend APIs, sử dụng Express.js, Koa.js, hoặc Next.js API routes)
+- ![GraphQL](https://img.shields.io/badge/GraphQL-%23E10098?style=flat-square&logo=graphql&logoColor=white&logoWidth=20) (giúp giao tiếp hiệu quả giữa frontend và backend với khả năng truy vấn linh hoạt)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-%2300A747?style=flat-square&logo=mongodb&logoColor=white&logoWidth=20) (Cơ sở dữ liệu NoSQL, được chọn vì tính linh hoạt và khả năng mở rộng trong việc lưu trữ dữ liệu thương mại điện tử)
+- ![Redis](https://img.shields.io/badge/Redis-%23DC382D?style=flat-square&logo=redis&logoColor=white&logoWidth=20) (dùng để cache và xử lý các tác vụ bất đồng bộ, giảm tải cho cơ sở dữ liệu và cải thiện hiệu suất)
+- ![JWT](https://img.shields.io/badge/JWT-%23272D3B?style=flat-square&logo=json-web-tokens&logoColor=white&logoWidth=20) (đảm bảo xác thực và ủy quyền người dùng an toàn)
+- ![Nodemailer](https://img.shields.io/badge/Nodemailer-%23FF6600?style=flat-square&logo=nodemailer&logoColor=white&logoWidth=20) (gửi email từ backend, chẳng hạn như xác nhận đơn hàng)
+- ![Mongoose](https://img.shields.io/badge/Mongoose-%230A5B56?style=flat-square&logo=mongoose&logoColor=white&logoWidth=20) (ORM cho MongoDB, cung cấp giải pháp schema-based để tương tác với MongoDB)
+- ![Bcrypt.js](https://img.shields.io/badge/Bcrypt.js-%231DA1F2?style=flat-square&logo=javascript&logoColor=white&logoWidth=20)  (mã hóa mật khẩu an toàn)
 
 ### DevOps & Triển khai:
-- **Docker** (container hóa ứng dụng, bao gồm các dịch vụ như Redis và MongoDB, đảm bảo môi trường đồng nhất giữa phát triển và sản xuất)
-- **Kubernetes** (dùng cho orchestration container, đặc biệt khi mở rộng ứng dụng trên nhiều nút)
-- **Nginx** (reverse proxy và cân bằng tải để phân phối lưu lượng hiệu quả)
+- ![Docker](https://img.shields.io/badge/Docker-%232496ED?style=flat-square&logo=docker&logoColor=white&logoWidth=20) (container hóa ứng dụng, bao gồm các dịch vụ như Redis và MongoDB, đảm bảo môi trường đồng nhất giữa phát triển và sản xuất)
+- ![Kubernetes](https://img.shields.io/badge/Kubernetes-%233E8E41?style=flat-square&logo=kubernetes&logoColor=white&logoWidth=20) (dùng cho orchestration container, đặc biệt khi mở rộng ứng dụng trên nhiều nút)
+- ![Nginx](https://img.shields.io/badge/Nginx-%23009639?style=flat-square&logo=nginx&logoColor=white&logoWidth=20) (reverse proxy và cân bằng tải để phân phối lưu lượng hiệu quả)
 
 ### CI/CD:
-- **GitHub Actions** hoặc **GitLab CI** (tự động hóa quy trình build, kiểm tra và triển khai, đảm bảo pipeline giao hàng mượt mà)
+- ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5?style=flat-square&logo=github-actions&logoColor=white&logoWidth=20) hoặc ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-%23181717?style=flat-square&logo=gitlab&logoColor=white&logoWidth=20) (tự động hóa quy trình build, kiểm tra và triển khai, đảm bảo pipeline mượt mà)
 
 ## Cài đặt dự án
 ### Cài đặt
