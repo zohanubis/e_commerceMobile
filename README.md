@@ -162,8 +162,8 @@ For any inquiries, please contact the project maintainer at [zohanubis](mailto:p
 </details>
 
 <details>
-    <summary>Vietnamese</sumarry>
-
+    <summary>Vietnamese</summary>
+    
 ## Mục lục
 - [Giới thiệu](#giới-thiệu)
 - [Công nghệ](#công-nghệ)
