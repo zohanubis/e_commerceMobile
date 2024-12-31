@@ -182,11 +182,15 @@ Dự án này là một ứng dụng thương mại điện tử di động đư
 
 ## Công nghệ
 ### Frontend:
-- **Next.js** (framework của React.js, được sử dụng cho server-side rendering, static site generation, và API routes)
+- ![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=next.js&logoColor=white) **Next.js** (framework của React.js, được sử dụng cho server-side rendering, static site generation, và API routes)
 
-- **Apollo Client** (quản lý dữ liệu GraphQL phía frontend, đơn giản hóa việc tương tác với API)
-- **TypeScript** (đảm bảo tính an toàn kiểu dữ liệu trên cả frontend và backend, giảm thiểu lỗi tại thời gian chạy)
-- **Jest và React Testing Library** (dùng để kiểm tra đơn vị, kiểm tra các component, và kiểm tra end-to-end các component frontend)
+- ![Apollo Client](https://img.shields.io/badge/Apollo%20Client-%23485BB5?style=for-the-badge&logo=apollo-graphql&logoColor=white) **Apollo Client** (quản lý dữ liệu GraphQL phía frontend, đơn giản hóa việc tương tác với API)
+
+- ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white) **TypeScript** (đảm bảo tính an toàn kiểu dữ liệu trên cả frontend và backend, giảm thiểu lỗi tại thời gian chạy)
+
+- ![Jest](https://img.shields.io/badge/Jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) ![React Testing Library](https://img.shields.io/badge/React%20Testing%20Library-%23FF3366?style=for-the-badge&logo=testing-library&logoColor=white)
+ (dùng để kiểm tra đơn vị, kiểm tra các component, và kiểm tra end-to-end các component frontend)
+
 
 ### Backend:
 - **Node.js** (môi trường chạy cho backend APIs, sử dụng Express.js, Koa.js, hoặc Next.js API routes)
