@@ -1,19 +1,21 @@
-# E-commerce Mobile Platform <i class="fas fa-mobile-alt"></i> <i class="fas fa-shopping-cart"></i>
+
+# E-commerce Mobile Platform  📱🛒
 <details>
     <summary>English</summary>
 
 ## Table of Contents
-- [Introduction](#introduction) <i class="fas fa-info-circle"></i>
-- [Technologies](#technologies) <i class="fas fa-laptop-code"></i>
-- [Project Setup](#project-setup) <i class="fas fa-cogs"></i>
-- [Usage](#usage) <i class="fas fa-play-circle"></i>
-- [Configuration](#configuration) <i class="fas fa-cogs"></i>
-- [Commands](#commands) <i class="fas fa-terminal"></i>
-- [Testing](#testing) <i class="fas fa-vial"></i>
-- [Deployment](#deployment) <i class="fas fa-cloud-upload-alt"></i>
-- [Contributing](#contributing) <i class="fas fa-handshake"></i>
-- [License](#license) <i class="fas fa-gavel"></i>
-- [Contact](#contact) <i class="fas fa-envelope"></i>
+- [Introduction](#introduction) 📚
+- [Technologies](#technologies) 💻
+- [Project Setup](#project-setup) ⚙️
+- [Usage](#usage) ▶️
+- [Configuration](#configuration) ⚙️
+- [Commands](#commands) 💻
+- [Testing](#testing) 🧪
+- [Deployment](#deployment) ☁️
+- [Contributing](#contributing) 🤝
+- [License](#license) ⚖️
+- [Contact](#contact) 📧
+
 
 
 ## Introduction
@@ -168,17 +170,18 @@ For any inquiries, please contact the project maintainer at [zohanubis](mailto:p
     <summary>Vietnamese</summary>
     
 ## Mục lục
-- [Giới thiệu](#giới-thiệu)
-- [Công nghệ](#công-nghệ)
-- [Cài đặt dự án](#cài-đặt-dự-án)
-- [Sử dụng](#sử-dụng)
-- [Cấu hình](#cấu-hình)
-- [Lệnh](#lệnh)
-- [Kiểm thử](#kiểm-thử)
-- [Triển khai](#triển-khai)
-- [Đóng góp](#đóng-góp)
-- [Giấy phép](#giấy-phép)
-- [Liên hệ](#liên-hệ)
+- [Giới thiệu](#giới-thiệu) 📚
+- [Công nghệ](#công-nghệ) 💻
+- [Cài đặt dự án](#cài-đặt-dự-án) ⚙️
+- [Sử dụng](#sử-dụng) ▶️
+- [Cấu hình](#cấu-hình) ⚙️
+- [Lệnh](#lệnh) 💻
+- [Kiểm thử](#kiểm-thử) 🧪
+- [Triển khai](#triển-khai) ☁️
+- [Đóng góp](#đóng-góp) 🤝
+- [Giấy phép](#giấy-phép) ⚖️
+- [Liên hệ](#liên-hệ) 📧
+
 
 ## Giới thiệu
 Dự án này là một ứng dụng thương mại điện tử di động được xây dựng với một stack công nghệ hiện đại để đảm bảo khả năng mở rộng, hiệu suất và khả năng bảo trì. Nó kết hợp các công nghệ frontend và backend mạnh mẽ để mang đến trải nghiệm người dùng mượt mà và quản lý dữ liệu, tài nguyên hiệu quả.
